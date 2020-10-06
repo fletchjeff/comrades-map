@@ -1,0 +1,122 @@
+body {
+  background-color: #f3f3f3;
+  margin: 0 auto;
+  width: 900px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.header {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 20px;
+  vertical-align: top;
+  line-height: 55px;
+}
+
+.moving_lines {
+	stroke-width:2;
+	stroke: #000;
+	opacity: 0.9;
+	/*stroke-linecap:round;*/
+}
+
+.moving_lines_selection {
+  stroke-width:2;
+  stroke: #E1B500;
+  opacity: 0.9;
+  /*stroke-linecap:round;*/
+}
+.axis path {
+	display: none;
+}
+.axis line {
+  fill: none;
+  stroke: #ccc;
+  shape-rendering: crispEdges;
+  stroke-dasharray: 2,2;
+}
+
+.xaxis line {
+  stroke-dasharray: none;
+}
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.start_text {
+  font-size: 40px;
+  /*font-family: 'Roboto';*/
+  cursor: pointer;
+}
+
+.start_fin_text {
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+
+.scale_text {
+  font-size: 20px;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+.warn_text {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.time_text {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.select_text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.no_pointer {
+  cursor: default;
+}
+
+.start_box {
+  fill: #fff;
+  stroke: #333;
+  stroke-width: 1px;
+}
+
+.start_fin_path {
+  fill: #fff;
+  stroke: #999;
+  stroke-width: 1px;
+}
+
+.single_runner {
+  fill:#E1B500;
+}
+
+
+#race_num_response {
+  float: left;
+  line-height: 10px;
+  font-size: 15px;
+  height: 26px;
+  padding-top: 6px;
+  padding-left: 20px;
+  font-style: italic;
+}
+
+#race_num_input_div {
+  padding-left: 300px;
+  float: left;
+  line-height: 10px;
+  font-size: 15px;
+
+}
